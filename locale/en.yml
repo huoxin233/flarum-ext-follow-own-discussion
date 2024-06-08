@@ -1,0 +1,9 @@
+huoxin-follow-own-discussion:
+  # For more details on the format
+  # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
+  admin:
+    default-follow-after-create-label: Default value for auto follow discussions that user created
+    default-follow-after-create-help: 'Default: on'
+
+  forum:
+    default-follow-after-create-label: Automatically follow discussions that I created

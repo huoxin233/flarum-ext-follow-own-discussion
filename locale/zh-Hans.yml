@@ -1,0 +1,9 @@
+huoxin-follow-own-discussion:
+  # For more details on the format
+  # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
+  admin:
+    default-follow-after-create-label: 自动关注我创建的主题的默认值
+    default-follow-after-create-help: 默认为：开启
+
+  forum:
+    default-follow-after-create-label: 自动关注我创建的主题
