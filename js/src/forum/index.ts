@@ -10,10 +10,10 @@ app.initializers.add('huoxin/follow-own-discussion', () => {
       Switch.component(
         {
           className: 'followOnCreate',
-          state: this.user.preferences()?.followAfterCreate,
-          onchange: (value) => {
+          state: this.user?.preferences()?.followAfterCreate,
+          onchange: (value: boolean) => {
             this.followOnCreateLoading = true;
-            this.user.savePreferences({ followAfterCreate: value }).then(() => {
+            this.user?.savePreferences({ followAfterCreate: value }).then(() => {
               this.followOnCreateLoading = false;
               m.redraw();
             });
